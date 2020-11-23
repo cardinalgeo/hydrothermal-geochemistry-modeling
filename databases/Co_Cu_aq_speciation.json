@@ -3163,6 +3163,1956 @@
         ]
       },
       "symbol": "HCl@"
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.14159,
+                        -432.43,
+                        7.4497,
+                        -26002.0,
+                        11.4699,
+                        -23288.000000000004,
+                        35870.0,
+                        1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "Cu+",
+        "formula_charge": 1,
+        "name": "Cu+",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                16926.8569
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                16.726
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                11940.0
+            ]
+        },
+        "symbol": "Cu+",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.11021000000000002,
+                        -1047.26,
+                        9.8662,
+                        -23461.0,
+                        20.3,
+                        -43900.0,
+                        147690.0,
+                        2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "01/07/87",
+        "formula": "Cu+2",
+        "formula_charge": 2,
+        "name": "Cu++",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                8757.920000000002
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -23.2
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                15675.0
+            ]
+        },
+        "symbol": "Cu++",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.14939,
+                        -413.37,
+                        7.3748,
+                        -26081.0,
+                        58.5587,
+                        -344159.99999999994,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "CuOH",
+        "formula_charge": 0,
+        "name": "CuOH",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -23880.45335
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                24.191
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -31093.0
+            ]
+        },
+        "symbol": "CuOH",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.09626000000000001,
+                        -543.09,
+                        7.8846,
+                        -25545.0,
+                        -0.5862,
+                        -96519.99999999999,
+                        134660.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "Cu(OH)2-",
+        "formula_charge": -1,
+        "name": "Cu(OH)2-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -75083.4901
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                9.346
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -77870.0
+            ]
+        },
+        "symbol": "Cu(OH)2-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.00277,
+                        -784.16,
+                        8.8142,
+                        -24547.0,
+                        21.5062,
+                        2246.0,
+                        64720.0,
+                        1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CuOH+",
+        "formula_charge": 1,
+        "name": "CuOH+",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -32018.715
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -6.1
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -30200.0
+            ]
+        },
+        "symbol": "CuOH+",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.03937,
+                        -873.6,
+                        9.1675,
+                        -24178.0,
+                        12.149,
+                        -33197.0,
+                        73840.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CuO",
+        "formula_charge": 0,
+        "name": "CuO",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -24497.06
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -12.4
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -20800.0
+            ]
+        },
+        "symbol": "CuO",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.13202,
+                        -455.27,
+                        7.5282,
+                        -25907.0,
+                        -3.2749,
+                        -80658.99999999999,
+                        54640.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "HCuO2-",
+        "formula_charge": -1,
+        "name": "HCuO2-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -60010.555
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                0.3
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -60100.0
+            ]
+        },
+        "symbol": "HCuO2-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.06024000000000001,
+                        -630.38,
+                        8.2129,
+                        -25183.0,
+                        7.6532,
+                        -139325.0,
+                        356470.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CuO2-2",
+        "formula_charge": -2,
+        "name": "CuO2--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -48087.265
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -23.1
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -41200.0
+            ]
+        },
+        "symbol": "CuO2--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.47896000000000005,
+                        391.32,
+                        4.2119,
+                        -29408.0,
+                        5.3754,
+                        -33096.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "CuHS",
+        "formula_charge": 0,
+        "name": "CuHS",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                10181.81955
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                45.557
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -3401.0
+            ]
+        },
+        "symbol": "CuHS",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.75438,
+                        1063.8,
+                        1.5687,
+                        32188.0,
+                        12.6022,
+                        -32693.0,
+                        77940.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "Cu(HS)2-",
+        "formula_charge": -1,
+        "name": "Cu(HS)2-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                11051.65555
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                56.997
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -5942.0
+            ]
+        },
+        "symbol": "Cu(HS)2-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.4404,
+                        297.16,
+                        4.582,
+                        -29018.0,
+                        1.195,
+                        -47626.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "CuCl",
+        "formula_charge": 0,
+        "name": "CuCl",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -15512.351
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                30.46
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -24594.0
+            ]
+        },
+        "symbol": "CuCl",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.68266,
+                        888.68,
+                        2.257,
+                        -31464.0,
+                        1.2981,
+                        -72932.0,
+                        80940.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Akinfiev,2001",
+        "formula": "CuCl2-",
+        "formula_charge": -1,
+        "name": "CuCl2-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -40415.6895
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                57.67
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -57610.0
+            ]
+        },
+        "symbol": "CuCl2-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        1.32482,
+                        2457.0,
+                        -3.914,
+                        -37947.0,
+                        63.9808,
+                        79089.0,
+                        285790.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "CuCl3-2",
+        "formula_charge": -2,
+        "name": "CuCl3--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -83022.068
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                23.28
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -89963.0
+            ]
+        },
+        "symbol": "CuCl3--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.1748,
+                        -351.03,
+                        7.1228,
+                        -26338.0,
+                        29.356,
+                        29530.0,
+                        64720.0,
+                        1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "CuCl+",
+        "formula_charge": 1,
+        "name": "CuCl+",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -18190.9565
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -6.51
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -16250.0
+            ]
+        },
+        "symbol": "CuCl+",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.50806,
+                        462.7,
+                        3.9244,
+                        -29702.0,
+                        37.5948,
+                        80108.0,
+                        -3800.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "CuCl2@",
+        "formula_charge": 0,
+        "name": "CuCl2",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -45909.443
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                0.78
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -46142.0
+            ]
+        },
+        "symbol": "CuCl2",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.9625900000000001,
+                        1572.52,
+                        -0.4377,
+                        -34290.0,
+                        63.8881,
+                        117108.00000000001,
+                        166050.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "CuCl3-",
+        "formula_charge": -1,
+        "name": "CuCl3-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -75996.9115
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -2.21
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -75338.0
+            ]
+        },
+        "symbol": "CuCl3-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        1.4669600000000003,
+                        2804.07,
+                        -5.2782,
+                        -39382.0,
+                        87.5037,
+                        140532.0,
+                        349230.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "CuCl4-2",
+        "formula_charge": -2,
+        "name": "CuCl4--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -109088.812
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -18.48
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -103579.0
+            ]
+        },
+        "symbol": "CuCl4--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.13202,
+                        -455.27,
+                        7.5282,
+                        -25907.0,
+                        -3.2749,
+                        -80658.99999999999,
+                        54640.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "HCuO2-",
+        "formula_charge": -1,
+        "name": "HCuO2-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -60010.555
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                0.3
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -60100.0
+            ]
+        },
+        "symbol": "HCuO2-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.06024000000000001,
+                        -630.38,
+                        8.2129,
+                        -25183.0,
+                        7.6532,
+                        -139325.0,
+                        356470.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CuO2-2",
+        "formula_charge": -2,
+        "name": "CuO2--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -48087.265
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -23.1
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -41200.0
+            ]
+        },
+        "symbol": "CuO2--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.28678,
+                        -1477.77,
+                        11.5439,
+                        -21680.0,
+                        16.4739,
+                        -80658.99999999999,
+                        269010.0,
+                        3.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "Co+3",
+        "formula_charge": 3,
+        "name": "Co+++",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                10235.050000000003
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -73.0
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                32000.0
+            ]
+        },
+        "symbol": "Co+++",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.02561,
+                        -840.39,
+                        9.0457,
+                        -24315.000000000004,
+                        26.6839,
+                        18542.0,
+                        70030.0,
+                        1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CoOH+",
+        "formula_charge": 1,
+        "name": "CoOH+",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -59006.5
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -10.0
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -56025.0
+            ]
+        },
+        "symbol": "CoOH+",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.15566000000000002,
+                        -1157.3600000000001,
+                        10.2791,
+                        -23003.999999999996,
+                        8.7031,
+                        -20567.000000000004,
+                        -3000.0,
+                        0.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CoO",
+        "formula_charge": 0,
+        "name": "CoO",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -49307.07
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -17.8
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -44000.0
+            ]
+        },
+        "symbol": "CoO",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.0059,
+                        -792.1899999999999,
+                        8.854,
+                        -24514.0,
+                        21.8518,
+                        -94713.99999999999,
+                        371270.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CoO2-2",
+        "formula_charge": -2,
+        "name": "CoO2--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -72949.505
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -32.7
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -63200.0
+            ]
+        },
+        "symbol": "CoO2--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.10884,
+                        -1043.53,
+                        9.8425,
+                        -23475.0,
+                        16.5492,
+                        -41548.99999999999,
+                        147690.0,
+                        2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "CoOH+2",
+        "formula_charge": 2,
+        "name": "CoOH++",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -31288.57
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -27.8
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -23000.0
+            ]
+        },
+        "symbol": "CoOH++",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.83014,
+                        -198.45999999999998,
+                        -6.2122,
+                        -26970.0,
+                        1.64,
+                        -179980.0,
+                        314630.0,
+                        -2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "03/07/87",
+        "formula": "SO4-2",
+        "formula_charge": -2,
+        "name": "SO4--",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -176588.325
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                4.5
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -177930.0
+            ]
+        },
+        "symbol": "SO4--",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        0.6978800000000001,
+                        925.9000000000001,
+                        2.1108,
+                        -31618.0,
+                        20.0961,
+                        -19550.0,
+                        117480.0,
+                        -1.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "HSO4-",
+        "formula_charge": -1,
+        "name": "HSO4-",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -171685.5
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                30.0
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -180630.0
+            ]
+        },
+        "symbol": "HSO4-",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
     }
 ],
   "thermodataset": [
