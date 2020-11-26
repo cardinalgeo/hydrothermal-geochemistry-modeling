@@ -1,0 +1,599 @@
+{
+  "datasources": [
+    "McGill Williams-Jones Lab Unitherm database"
+  ],
+  "date": "28.10.2020 14:30:43",
+  "elements": [
+    {
+      "symbol": "Fe",
+      "class_": {
+        "0": "ELEMENT"
+      },
+      "entropy": {
+        "values": [
+          27.2800006866455
+        ],
+        "name": "S0i"
+      },
+      "atomic_mass": {
+        "values": [
+          55.8450012207031
+        ],
+        "name": "M0i"
+      },
+      "datasources": [
+        "[1998SHO/EA]"
+      ]
+    },
+    {
+      "atomic_mass": {
+        "name": "M0i",
+        "values": [
+          0
+        ]
+      },
+      "class_": {
+        "4": "CHARGE"
+      },
+      "datasources": [
+        "Supcrt-Slop98"
+      ],
+      "entropy": {
+        "name": "S0i",
+        "values": [
+          -65.3399963378906
+        ]
+      },
+      "symbol": "Zz"
+    },
+    {
+      "atomic_mass": {
+        "name": "M0i",
+        "values": [
+          1.00794994831085
+        ]
+      },
+      "class_": {
+        "0": "ELEMENT"
+      },
+      "datasources": [
+        "Supcrt-Slop98"
+      ],
+      "entropy": {
+        "name": "S0i",
+        "values": [
+          65.3399963378906
+        ]
+      },
+      "symbol": "H"
+    },
+    {
+      "atomic_mass": {
+        "name": "M0i",
+        "values": [
+          15.999400138855
+        ]
+      },
+      "class_": {
+        "0": "ELEMENT"
+      },
+      "datasources": [
+        "Supcrt-Slop98"
+      ],
+      "entropy": {
+        "name": "S0i",
+        "values": [
+          102.569000244141
+        ]
+      },
+      "symbol": "O"
+    },
+    {
+      "atomic_mass": {
+        "name": "M0i",
+        "values": [
+          35.4529991149902
+        ]
+      },
+      "class_": {
+        "0": "ELEMENT"
+      },
+      "datasources": [
+        "Supcrt-Slop98"
+      ],
+      "entropy": {
+        "name": "S0i",
+        "values": [
+          111.540496826172
+        ]
+      },
+      "symbol": "Cl"
+    }
+  ],
+  "substances": [
+    {
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "eos_hkf_coeffs": {
+            "names": [
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "c1",
+              "c2",
+              "wref"
+            ],
+            "units": [
+              "cal/(mol*bar)",
+              "cal/mol",
+              "(cal*K)/mol",
+              "cal/(mol*K)",
+              "(cal*K)/mol",
+              "cal/mol"
+            ],
+            "values": [
+              0.40319991111755,
+              480.09991455078,
+              5.563000202179,
+              -28470,
+              -4.4000000953674,
+              -57140,
+              145600,
+              1.8099999427795
+            ]
+          },
+          "method": {
+            "3": "solute_hkf88_reaktoro"
+          }
+        }
+      ],
+      "Tst": 298.15,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "datasources": [
+        "Shock_ea:1997:pap:              "
+      ],
+      "formula": "Cl-",
+      "formula_charge": -1,
+      "name": "Cl-",
+      "sm_enthalpy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -167111
+        ]
+      },
+      "sm_entropy_abs": {
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          56.735038757324
+        ]
+      },
+      "sm_gibbs_energy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -131290
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          -122.49036407471
+        ]
+      },
+      "sm_volume": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ],
+        "values": [
+          1.7340893745422
+        ]
+      },
+      "symbol": "Cl-"
+    },
+    {
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "method": {
+            "32": "water_eos_iapws95_reaktoro"
+          }
+        },
+        {
+          "method": {
+            "25": "water_diel_jnort91_reaktoro"
+          }
+        }
+      ],
+      "Tst": 298.15,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "3": "SC_AQSOLVENT"
+      },
+      "datasources": [
+        "SUPCRT:1992:prog:               "
+      ],
+      "formula": "H2O@",
+      "formula_charge": 0,
+      "name": "H2O  l",
+      "sm_enthalpy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -285881
+        ]
+      },
+      "sm_entropy_abs": {
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          69.922996520996
+        ]
+      },
+      "sm_gibbs_energy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -237183
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          75.360527038574
+        ]
+      },
+      "sm_volume": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ],
+        "values": [
+          1.8068397045136
+        ]
+      },
+      "symbol": "H2O@"
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "datasources": [
+        "Shock_ea:1997:pap:              "
+      ],
+      "formula": "H+",
+      "formula_charge": 1,
+      "name": "H+",
+      "sm_enthalpy": {
+        "errors": [
+          0
+        ],
+        "values": [
+          0
+        ]
+      },
+      "sm_entropy_abs": {
+        "errors": [
+          0
+        ],
+        "values": [
+          0
+        ]
+      },
+      "sm_gibbs_energy": {
+        "errors": [
+          0
+        ],
+        "values": [
+          0
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "errors": [
+          0
+        ],
+        "values": [
+          0
+        ]
+      },
+      "sm_volume": {
+        "errors": [
+          0
+        ],
+        "values": [
+          0
+        ]
+      },
+      "symbol": "H+"
+    },
+    {
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "eos_hkf_coeffs": {
+            "names": [
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "c1",
+              "c2",
+              "wref"
+            ],
+            "units": [
+              "cal/(mol*bar)",
+              "cal/mol",
+              "(cal*K)/mol",
+              "cal/(mol*K)",
+              "(cal*K)/mol",
+              "cal/mol"
+            ],
+            "values": [
+              0.12526999413967,
+              7.3800001144409,
+              1.8423000574112,
+              -27821,
+              4.1500000953674,
+              -103460,
+              172460,
+              1.3999999761581
+            ]
+          },
+          "method": {
+            "3": "solute_hkf88_reaktoro"
+          }
+        }
+      ],
+      "Tst": 298.15,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "datasources": [
+        "Shock_ea:1997:pap:              ",
+        "AUG20_GEMS:2001:dat:            "
+      ],
+      "formula": "OH-",
+      "formula_charge": -1,
+      "name": "OH-",
+      "sm_enthalpy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -230009
+        ]
+      },
+      "sm_entropy_abs": {
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          -10.711039543152
+        ]
+      },
+      "sm_gibbs_energy": {
+        "units": [
+          "J/mol"
+        ],
+        "values": [
+          -157270
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ],
+        "values": [
+          -136.33808898926
+        ]
+      },
+      "sm_volume": {
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ],
+        "values": [
+          -0.47078430652618
+        ]
+      },
+      "symbol": "OH-"
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.24256000000000003,
+                        -1369.61,
+                        11.1141,
+                        -22127.0,
+                        19.0459,
+                        -68233.0,
+                        258120.0,
+                        3.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Shock,1997a",
+        "formula": "Fe+3",
+        "formula_charge": 3,
+        "name": "Fe+++",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -23887.344999999998
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -66.3
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -4120.0
+            ]
+        },
+        "symbol": "Fe+++",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    },
+    {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                    ],
+                    "values": [
+                        -0.07164000000000001,
+                        -952.77,
+                        9.4878,
+                        -23851.0,
+                        23.8149,
+                        -23482.0,
+                        170130.0,
+                        2.0
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Sverj.,1997",
+        "formula": "FeCl+2",
+        "formula_charge": 2,
+        "name": "FeCl++",
+        "sm_enthalpy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -50260.931
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "J/(mol*K)"
+            ],
+            "values": [
+                -42.74
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "J/mol"
+            ],
+            "values": [
+                -37518.0
+            ]
+        },
+        "symbol": "FeCl++",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+    }
+],
+  "thermodataset": [
+    "testRB"
+  ]
+}
