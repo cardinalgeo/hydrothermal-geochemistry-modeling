@@ -1,0 +1,159 @@
+{
+  "elements": [
+    {
+      "symbol": "O",
+      "class_": {
+        "0": "ELEMENT"
+      },
+      "entropy": {
+        "values": [
+          102.569000244141
+        ],
+        "name": "S0i"
+      },
+      "atomic_mass": {
+        "values": [
+          15.999400138855
+        ],
+        "name": "M0i"
+      },
+      "datasources": [
+        "PSI-Nagra-12-07"
+      ]
+    }
+],
+  "substances": [
+    {
+      "name": "O2  g",
+      "symbol": "O2",
+      "formula": "O|0|2",
+      "formula_charge": 0,
+      "aggregate_state": {
+        "0": "AS_GAS"
+      },
+      "class_": {
+        "1": "SC_GASFLUID"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "method": {
+            "0": "cp_ft_equation"
+          },
+          "limitsTP": {
+            "range": true,
+            "lowerT": 273.15,
+            "upperT": 1273.15
+          },
+          "m_heat_capacity_ft_coeffs": {
+            "values": [
+              29.957399368286,
+              0.0041840001940727,
+              -167360,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "units": [
+              "J/(mol*K)",
+              "J/(mol*K^2)",
+              "(J*K)/mol",
+              "J/(mol*K^0.5)",
+              "J/(mol*K^3)",
+              "J/(mol*K^4)",
+              "J/(mol*K^5)",
+              "(J*K^2)/mol",
+              "J/mol",
+              "J/(mol*K^1.5)",
+              "J/(mol*K)"
+            ],
+            "names": [
+              "a0",
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "a5",
+              "a6",
+              "a7",
+              "a8",
+              "a9",
+              "a10"
+            ]
+          }
+        },
+        {
+          "method": {
+            "40": "mv_pvnrt"
+          }
+        }
+      ],
+      "sm_heat_capacity_p": {
+        "values": [
+          29.322154998779
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_gibbs_energy": {
+        "values": [
+          0
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          0
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          205.1369934082
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_volume": {
+        "values": [
+          2478.9711914062
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ]
+      },
+      "datasources": [
+        "Slop98_dat:1998:dat:           ",
+        "AUG20_GEMS:2001:dat:            "
+      ]
+    }
+  ]
+}
